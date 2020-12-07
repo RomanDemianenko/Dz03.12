@@ -86,7 +86,7 @@ class MilkCoffee(CoffieMachine):
             return
         self.curent_water -= 100
         self.quantiny_seed -= 50
-        self.CoffieMachine__curent_garbage += 2
+        self._CoffieMachine__curent_garbage += 2
         self.curent_milk -= 200
         print('Вот ваш Латте')
 
@@ -148,7 +148,7 @@ class AlkoCoffee(MilkCoffee):
 # # lat = milkcof.latte()
 # # capuch = milkcof.capuchino()
 #
-# alkoCoffee = AlkoCoffee()
-# coffee = alkoCoffee.Coffe_s_konyakom()
+alkoCoffee = AlkoCoffee()
+coffee = alkoCoffee.Coffe_s_konyakom()
 # # for coffee in range(2):
 # # print(esp)
